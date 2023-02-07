@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" type="image/icon" href="Images/fav.png">
+    <link rel="stylesheet" href= "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" ></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        body{
+            background-color: rgb(74, 80, 101);
+        }
+        .row{
+            text-align: center;
+        }
+        .home{
+            width: 100px;
+            height: 50px;
+            border: none rgb(79, 79, 104);
+            margin-right: 130px;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            margin-right: 170px;
+        }
+        .home:hover{
+            background: rgb(102, 102, 157);
+            border-radius: 15px;
+        }
+        input{
+            border-radius: 50px;
+            background-color: rgb(104, 104, 104);
+            width: 500px;
+        }
+        .username{
+            border-radius: 50px;
+            border: none;
+            width: 40px;
+            height: 40px;
+        }
+        .username:hover{
+            background-color: blue;
+        }
+        hr{
+            width: 250px;
+        }
+        .Watch{
+            width: 100px;
+            border: 1px solid ;
+            margin-right: 120px;
+            border-radius: 5px;
+        }
+        .Watch:hover{
+            background: rgb(102, 102, 157);
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2" class="home2">
+                <button class="home"><i class="fa-sharp fa-solid fa-house"></i>Home</button>
+                <div class="col-md-2">
+                    <button class="username"><i class="fa-sharp fa-solid fa-user-tie"></i></button> 
+                    <hr>
+                </div>
+                <div>
+                    <button class="Watch"><i class="fa-solid fa-tv"></i>Watch</button>
+                </div>
+                <div>
+                    <button class="Gaming"><i class="fa-sharp fa-solid fa-gamepad"></i>Gaming</button>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="col-md-4">
+                <button>
+                    <div>
+                        <i class="fa-solid fa-bell"></i>
+                    </div>
+                </button>
+                <button>
+                    <div>
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                    </div>
+                </button>
+                <button>
+                    <div>
+                        <i class="fa-duotone fa-user-tie"></i>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
